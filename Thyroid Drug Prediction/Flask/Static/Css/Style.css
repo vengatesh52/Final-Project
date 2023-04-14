@@ -1,0 +1,69 @@
+body {
+	font-family: Arial, sans-serif;
+        background-image: url(1.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 0.5rem;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+main {
+	margin: 2rem;
+    color: white;
+}
+
+form label {
+	display: inline-block;
+	width: 120px;
+	margin-right: 1rem;
+}
+
+form input[type="number"],
+form select {
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 0.25rem;
+	border: 1px solid #ccc;
+}
+
+form button {
+	padding: 0.5rem;
+	background-color: #ff0000;
+	color: white;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #ccc;
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 1rem;
+}
