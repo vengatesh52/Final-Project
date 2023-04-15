@@ -1,0 +1,161 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+.background {
+	background-image: url(../Image/1.png);
+	width: auto;
+	height: 100vh;
+	background-position: center;
+	background-attachment: fixed;
+	color: #cccccc00;
+}
+.text p{
+	color: hsl(0, 0%, 100%);
+    font-size: 2em;
+}
+
+
+h1{
+	color:#000;
+	font-size: 1.5em;
+}
+h2{
+	color:#ffffffe8;
+    font-size: 3em;
+}
+h2 u{
+	background-color: #ff0000;
+}
+h3{
+	color: #ffffff;
+	font-size: 3em;
+	text-shadow:
+	 black  2.5px -0.5px,
+     rgb(255, 255, 255) 3px -0.5px;
+	}
+
+	h4{
+		color:white;
+		font-size: 3em;
+	}
+	h4 u{
+		color:rgb(255, 0, 0);
+		
+        	
+	}
+	
+	
+	.para{
+		color:white;
+		font-size: 2.5em;
+	}
+	.para b{
+		color:white;
+	 background-color: #3baa08f8;	
+	}	
+
+	header {
+	background-color: #bbaadabd;
+	background-size: 2cm,3cm;
+	color: rgba(229, 229, 231, 0.966);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem;
+}
+
+nav ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 0.5rem;
+}
+
+nav a {
+		display: inline-block;
+		padding: 10px;
+		text-decoration: none;
+		color: #000; 
+ }
+  
+  nav a:not(:active) {
+	background-color: #043fe29c;
+  }
+  
+  nav a:active{
+	background-color: #e7241ed2;
+	color:#ffffff; 
+  }   
+
+main {
+	margin: 2rem;
+    color: white;
+}
+
+form label {
+	position: relative;
+	display: inline-block;
+	color:white;
+	font-size: 1.5em;
+}
+   form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1px;
+  }
+   input[type=text], input[type=email], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+form input[type="number"],
+form select {
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+	border-radius: 0.25rem;
+	border: 1px solid #ccc;
+}
+
+form button {
+	padding: 0.5rem;
+	background-color: #ff0000;
+	color: white;
+	border: none;
+	border-radius: 0.25rem;
+	cursor: pointer;
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #bbaadaab;
+	color: white;
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0.1rem;
+}
